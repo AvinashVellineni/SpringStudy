@@ -9,7 +9,7 @@ public class HelloWorldServiceImpl implements HelloWorldService{
 
     private HelloWorldRepository helloWorldRepository;
 
-    public HelloWorldServiceImpl(@Autowired HelloWorldRepository helloWorldRepository){
+    public HelloWorldServiceImpl(HelloWorldRepository helloWorldRepository){
         this.helloWorldRepository = helloWorldRepository;
     }
 

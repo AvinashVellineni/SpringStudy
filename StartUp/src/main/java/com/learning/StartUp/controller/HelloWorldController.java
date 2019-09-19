@@ -11,7 +11,7 @@ public class HelloWorldController {
 
     private HelloWorldService helloWorldService;
 
-    public HelloWorldController(@Autowired HelloWorldService helloWorldService) {
+    public HelloWorldController(HelloWorldService helloWorldService) {
         this.helloWorldService = helloWorldService;
     }
 
